@@ -1,11 +1,10 @@
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
 
 header {
     background-color: #EAC926;
+    padding-bottom: 15px;
 }
 
 .roboto {
@@ -69,7 +68,7 @@ body header h3 {
 
 .burger-menu {
     text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .burger {
@@ -109,13 +108,13 @@ body header h3 {
 }
 
 main {
-    width: 100vw;
+    width: 100%;
     background-color: #ebebeb;
     margin: auto;
 }
 
 main img {
-    width: 90%;
+    width: 100%;
 }
 
 main article {
@@ -195,7 +194,9 @@ main section h3 {
     margin-bottom: 10px;
 }
 
-
+.one-hundred {
+    width: 100%;
+}
 
 /*version mobile*/
 @media (max-width: 768px) {
