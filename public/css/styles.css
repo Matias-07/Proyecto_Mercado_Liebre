@@ -54,7 +54,7 @@ body header h3 {
 .center {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .center i {
@@ -213,7 +213,49 @@ main section h3 {
         left: 85%;
         bottom: -24px;
     }
+
+    .search-container {
+        display: block;
+    }
+
+    header .icon-hand i {
+        margin-right: 0;
+        padding-left: 85px;
+        margin-bottom: 20px;
+
+    }
+
+    header .icon-hand h3 {
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .margin-top {
+        margin-top: 10px;
+    }
+
+    .search-container-logo {
+        display: flex;
+    }
+
+    .search-container-logo i {
+        margin-top: 28px;
+    }
+
+    .search-container-logo button {
+        max-height: 38px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .search-container-logo img {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
 }
+
+
+
 
 /*version tablet*/
 @media (min-width: 768px) {
@@ -245,6 +287,10 @@ main section h3 {
         left: 58%;
         bottom: -24px;
     }
+
+    .right-position {
+        margin-right: 40px;
+    }
 }
 
 /*version desktop*/
@@ -252,6 +298,10 @@ main section h3 {
     main section article i {
         left: 61%;
         bottom: -24px;
+    }
+
+    .search-container {
+        display: flex;
     }
 
     .main-navbar {
@@ -286,19 +336,22 @@ main section h3 {
     }
 
     .stretch {
-        display: flex;
+        margin-right: 960px;
         align-items: stretch;
         flex-grow: 1;
-        margin-right: 600px;
     }
 
     body header h3 {
         margin-right: 45px;
     }
 
-    .icon-hand{
+    .icon-hand {
         margin-top: 20px;
         margin-right: 10px;
     }
 
+    header .icon-hand i {
+        margin-right: 10px;
+        margin-bottom: 2px;
+    }
 }
