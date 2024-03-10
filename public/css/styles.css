@@ -13,6 +13,11 @@ header {
     font-style: normal;
 }
 
+.img-logo {
+    width: 200px;
+    display: flex;
+}
+
 .cuerpos-de-texto {
     font-size: 16px;
 }
@@ -35,16 +40,16 @@ body header h3 {
 
 .search-container {
     display: flex;
-    /* Para que los elementos estén en línea */
     align-items: center;
-    /* Para centrar verticalmente */
+
 }
 
 .search-container i {
     margin-right: 10px;
-    margin-left: 10px;
-    /* Espacio entre el ícono y el título */
+    margin-left: 30px;
 }
+
+
 
 .center {
     display: flex;
@@ -153,7 +158,7 @@ main section {
     background-color: #ebebeb;
 }
 
-main article span  {
+main article span {
     color: #39b54a;
     font-size: 16px;
     display: flex;
@@ -171,7 +176,7 @@ main precio {
     font-size: 18px;
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
 main article span div {
@@ -211,7 +216,7 @@ main section h3 {
 }
 
 /*version tablet*/
-@media (min-width: 768px)  {
+@media (min-width: 768px) {
 
     /*main section article span p {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -235,7 +240,7 @@ main section h3 {
     main section h3 {
         margin-left: 100px;
     }
-    
+
     main section article i {
         left: 58%;
         bottom: -24px;
@@ -248,4 +253,52 @@ main section h3 {
         left: 61%;
         bottom: -24px;
     }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .main-navbar ul {
+        display: flex;
+        margin-right: 5px;
+    }
+
+    .main-navbar li {
+        margin-right: 15px;
+    }
+
+    .main-navbar li i {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .non-style {
+        list-style: none;
+    }
+
+    .img-logo {
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-bottom: 15px;
+    }
+
+    .stretch {
+        display: flex;
+        align-items: stretch;
+        flex-grow: 1;
+        margin-right: 600px;
+    }
+
+    body header h3 {
+        margin-right: 45px;
+    }
+
+    .icon-hand{
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
 }
