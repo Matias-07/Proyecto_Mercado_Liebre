@@ -22,7 +22,7 @@ header {
     font-size: 16px;
 }
 
-body main  h3 {
+body main h3 {
     font-size: 24px;
 }
 
@@ -249,7 +249,7 @@ main h3 {
         margin-left: 10px;
     }
 
-    .bottom{
+    .bottom {
         border-bottom: #ebebeb solid 15px;
     }
 }
@@ -284,7 +284,7 @@ main h3 {
     }
 
     main section article i {
-        left: 58%;
+        left: 85%;
         bottom: -24px;
     }
 
@@ -346,6 +346,22 @@ main h3 {
         justify-items: stretch;
         flex-grow: 1;
         margin-right: 100px;
+    }
+
+    main article {
+        max-width: 350px;
+        margin-left: 100px;
+        display: inline-block;
+        align-items: center;
+        
+    }
+
+    main section article img {
+        width: 30vw;
+    }
+
+    main h3 {
+        margin-left: 100px;
     }
 
 }
@@ -418,13 +434,13 @@ main h3 {
         margin-right: 20px;
         margin-left: 20px;
     }
-    
+
     main section {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
     }
 
     main section article img {
-        width: 20vw;    
+        width: 20vw;
     }
 }
