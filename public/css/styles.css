@@ -248,6 +248,10 @@ main h3 {
         margin-top: 10px;
         margin-left: 10px;
     }
+
+    .bottom{
+        border-bottom: #ebebeb solid 15px;
+    }
 }
 
 
@@ -287,6 +291,63 @@ main h3 {
     .right-position {
         margin-right: 40px;
     }
+
+    .search-container {
+        display: flex;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .main-navbar ul {
+        display: flex;
+        margin-right: 5px;
+    }
+
+    .main-navbar li {
+        margin-right: 15px;
+    }
+
+    .main-navbar li i {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .non-style {
+        list-style: none;
+    }
+
+    .img-logo {
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-bottom: 15px;
+    }
+
+    body header h3 {
+        margin-right: 45px;
+    }
+
+    .icon-hand {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    header .icon-hand i {
+        margin-right: 10px;
+        margin-bottom: 2px;
+    }
+
+    .search-container button {
+        display: flex;
+        justify-items: stretch;
+        flex-grow: 1;
+        margin-right: 100px;
+    }
+
 }
 
 /*version desktop*/
