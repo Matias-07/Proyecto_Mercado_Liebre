@@ -14,3 +14,7 @@ app.listen(3002, ()=>{
 app.get('/', (req, res)=>{
     res.sendFile(path.resolve(__dirname, './views/index.html'))
 })
+
+app.get('/crea-tu-cuenta', (req,res)=>{
+    res.sendFile(path.resolve(__dirname, './register.html'))
+})
