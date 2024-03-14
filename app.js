@@ -16,5 +16,9 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/crea-tu-cuenta', (req,res)=>{
-    res.sendFile(path.resolve(__dirname, './register.html'))
+    res.sendFile(path.resolve(__dirname, './views/register.html'))
+})
+
+app.get('/ingresa', (req,res)=>{
+    res.sendFile(path.resolve(__dirname, './views/login.html'))
 })
