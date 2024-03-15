@@ -235,7 +235,7 @@ main h3 {
     }
 
     .search-container-logo i {
-        margin-top: 28px;
+        margin-top: 2px;
     }
 
     .search-container-logo button {
@@ -337,7 +337,7 @@ main h3 {
     }
 
     header .icon-hand i {
-        margin-right: 10px;
+        margin-right: 5px;
         margin-bottom: 2px;
     }
 
@@ -362,6 +362,10 @@ main h3 {
 
     main h3 {
         margin-left: 100px;
+    }
+
+    header input {
+        margin-right: 15px;
     }
 
 }
@@ -422,7 +426,7 @@ main h3 {
         margin-bottom: 2px;
     }
 
-    .search-container button {
+    .search-container input {
         display: flex;
         justify-items: stretch;
         flex-grow: 1;

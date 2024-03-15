@@ -22,3 +22,4 @@ app.get('/crea-tu-cuenta', (req,res)=>{
 app.get('/ingresa', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/login.html'))
 })
+

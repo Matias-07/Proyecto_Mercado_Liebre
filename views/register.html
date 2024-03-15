@@ -23,7 +23,7 @@
             <div class="search-container-logo search-container">
                 <img src="/img/logo-mercado-liebre.svg" alt="logo mercado libre" class="img-logo">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <button class="stretch">Buscar productos, marcas...</button>
+                <input type="search" class="stretch" placeholder="Buscar productos, marcas...">
             </div>
 
             <div class="center icon-hand margin-top ">
@@ -65,27 +65,27 @@
         </div>
     </header>
     <main>
-
         <form action='/'>
-            <div>
-                <label>Nombre:</label>
-                <input type="text" name="name">
+            <div class="class">
+                <input type="text" name="name" placeholder="Nombre y apellido" class="control">
             </div>
-            <div>
-                <label>Email:</label>
-                <input type="email" name="email">
+            <div class="class">
+                <input type="text" name="user-name" placeholder="Nombre de usuario" class="control">
             </div>
-            <div>
-                <label>Fecha de nacimiento:</label>
-                <input type="date" name="birthday-date" value="xxxx-xx-xx" min="1900-01-01" max="2024-01-01">
+            <div class="class">
+                <input type="email" name="email" placeholder="E-mail" class="control">
             </div>
-            <div>
-                <label>Domicilio:</label>
-                <input type="text" name="adress">
+            <div class="class">
+                <label><strong>Fecha de nacimiento</strong></label>
+                <input type="date" name="birthday-date" value="xxxx-xx-xx" min="1900-01-01" max="2024-01-01"
+                    class="control">
             </div>
-            <div>
+            <div class="class">
+                <input type="text" name="adress" class="control" placeholder="Domicilio">
+            </div>
+            <div class="class">
                 <label> Seleccione su preferencia:</label>
-                <select name="user-preference">
+                <select name="user-preference" class="control">
                     <option value=""></option>
                     <hr />
                     <optgroup label="Elige">
@@ -94,40 +94,38 @@
                     </optgroup>
                 </select>
             </div>
-            <div>
+            <div class="class">
                 <label>Categorias de interes:</label>
-                <div>
+                <div class="class">
                     <label>Electro</label>
-                    <input type="checkbox" name="interest" value="electro">
+                    <input type="checkbox" name="interest" value="electro" class="control">
                 </div>
-                <div>
+                <div class="class">
                     <label>Moda</label>
-                    <input type="checkbox" name="interest" value="fashion">
+                    <input type="checkbox" name="interest" value="fashion" class="control">
                 </div>
-                <div>
+                <div class="class">
                     <label>Hogar</label>
-                    <input type="checkbox" name="interest" value="home">
+                    <input type="checkbox" name="interest" value="home" class="control">
                 </div>
-                <div>
+                <div class="class">
                     <label>Jugueteria</label>
-                    <input type="checkbox" name="interest" value="toys">
+                    <input type="checkbox" name="interest" value="toys" class="control">
                 </div>
-                <div>
+                <div class="class">
                     <label>Vida Sana</label>
-                    <input type="checkbox" name="interest" value="health">
+                    <input type="checkbox" name="interest" value="health" class="control">
                 </div>
             </div>
-            <div>
-                <label>Foto De Perfil</label>
-                <input type="file" accept=".jpg" name="profile-picture">
+            <div class="class">
+                <label><strong>Foto De Perfil</strong></label>
+                <input type="file" accept=".jpg" name="profile-picture" class="control">
             </div>
-            <div>
-                <label>Contraseña:</label>
-                <input type="password" name="password">
+            <div class="class">
+                <input type="password" name="password" class="control" placeholder="Contraseña">
             </div>
-            <div>
-                <label>Confirmar contraseña:</label>
-                <input type="password" name="confirmed-pasword">
+            <div class="class">
+                <input type="password" name="confirmed-pasword" class="control" placeholder="Confirmar contraseña">
             </div>
 
             <button type="submit">enviar</button>
