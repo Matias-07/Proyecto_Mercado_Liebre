@@ -54,7 +54,7 @@ div input:invalid {
         padding: 10px;
         background-color: #1259c3;
         border: none;
-        color:  #ffffff;
+        color: #ffffff;
         font-size: 18px;
     }
 }
@@ -63,4 +63,58 @@ div input:invalid {
 @media (min-width: 768px) {}
 
 /*version desktop*/
-@media (min-width: 1028px) {}
+@media (min-width: 1028px) {
+
+    .class {
+        padding: 20px 15px;
+        margin-left: 34%;
+    }
+
+    .class label {
+        font-size: 18px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .class-check {
+        padding: 20px 15px;
+        margin-left: 34%;
+    }
+
+    .class-check label {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .control {
+        width: 47%;
+        padding: 10px;
+        border-radius: 2%;
+        border: none;
+    }
+
+    .check-box-control {
+        padding: 0;
+        display: inline;
+    }
+
+    .check-box-control-item {
+        margin-left: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: inline;
+    }
+
+    .button-class {
+        width: 30%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #1259c3;
+        border: none;
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+}
