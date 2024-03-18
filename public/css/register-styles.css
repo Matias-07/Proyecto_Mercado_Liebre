@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
-div input:invalid {
+input:invalid:not(:placeholder-shown) {
     background-color: #ffdddd;
 }
+
+/*div input:invalid {
+    background-color: #ffdddd;
+}*/
 
 /*version mobile*/
 @media (max-width: 768px) {
@@ -168,5 +172,7 @@ div input:invalid {
         color: #ffffff;
         font-size: 18px;
     }
+
+  
 
 }
