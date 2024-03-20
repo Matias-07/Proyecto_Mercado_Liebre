@@ -267,19 +267,19 @@ main h3 {
     .box-shadow article {
         transition: all 0.5s ease;
     }
-    
+
     .box-shadow article:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    
+
     .rotate {
-        transition: transform 0.3s ease; 
+        transition: transform 0.3s ease;
     }
-    
+
     .box-shadow article:hover .rotate {
         transform: rotate(0.5turn);
     }
-    
+
 
     header nav {
         display: block;
@@ -367,7 +367,7 @@ main h3 {
         margin-left: 100px;
         display: inline-block;
         align-items: center;
-        
+
     }
 
     main section article img {
@@ -468,10 +468,10 @@ main h3 {
         overflow: hidden;
         transition: opacity 2s ease, height 2s ease;
     }
-    
+
     .product:hover .product-name {
         opacity: 1;
         height: auto;
     }
-    
+
 }

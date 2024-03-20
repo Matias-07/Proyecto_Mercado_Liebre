@@ -3,7 +3,8 @@
 }
 
 input:invalid:not(:placeholder-shown) {
-    background-color: #ffdddd;;
+    background-color: #ffdddd;
+    ;
 }
 
 @media (max-width: 768px) {
@@ -17,7 +18,7 @@ input:invalid:not(:placeholder-shown) {
         margin-bottom: 10px;
     }
 
-  
+
     .control {
         width: 100%;
         padding: 10px;
@@ -110,6 +111,8 @@ input:invalid:not(:placeholder-shown) {
         font-size: 18px;
     }
 
-  
+    .button-class:hover {
+        background-color: #0022AA;
+    }
 
 }
