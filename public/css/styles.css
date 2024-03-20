@@ -263,9 +263,23 @@ main h3 {
     /*main section article span p {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }*/
-    main article {
+
+    .box-shadow article {
+        transition: all 0.5s ease;
+    }
+    
+    .box-shadow article:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    
+    .rotate {
+        transition: transform 0.3s ease; 
+    }
+    
+    .box-shadow article:hover .rotate {
+        transform: rotate(0.5turn);
+    }
+    
 
     header nav {
         display: block;
@@ -447,4 +461,17 @@ main h3 {
     main section article img {
         width: 20vw;
     }
+
+    .product-name {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        transition: opacity 2s ease, height 2s ease;
+    }
+    
+    .product:hover .product-name {
+        opacity: 1;
+        height: auto;
+    }
+    
 }
