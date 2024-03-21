@@ -474,8 +474,6 @@ main h3 {
         height: auto;
     }
 
-    /* styles.css */
-
     .footer-wrapper {
         display: flex;
         justify-content: space-between;
@@ -493,17 +491,16 @@ main h3 {
     }
 
     .part-footer-copyright {
-        text-align: center;
+        text-align: left;
+        margin-left: 20px;
     }
 
-  /* styles.css */
+    .image-footer {
+        transition: 0.5s ease;
+    }
 
-.image-footer {
-    transition: 0.5s ease;
-}
-
-.part-footer:hover .image-footer {
-    color: #39b54a !important; 
-}
+    .part-footer:hover .image-footer {
+        color: #39b54a !important;
+    }
 
 }
