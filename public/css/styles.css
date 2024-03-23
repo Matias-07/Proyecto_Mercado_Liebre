@@ -252,6 +252,11 @@ main h3 {
     .bottom {
         border-bottom: #ebebeb solid 15px;
     }
+
+    header input {
+        width: 100%;
+        margin-right: 20px;
+    }
 }
 
 
@@ -503,4 +508,7 @@ main h3 {
         color: #39b54a !important;
     }
 
+    .max-height {
+        max-height: 580px !important;
+    }
 }
